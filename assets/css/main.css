@@ -1,0 +1,761 @@
+.text-gold {
+  color: #ffc904; }
+
+span, p, h1, h2, h3, h4, h5, h6, a, li, div, b, strong, i, em {
+  font-family: "Fira Sans", sans-serif !important; }
+
+h1.sigai-section-title {
+  color: #09de6b;
+  text-align: center;
+  font-size: 27px;
+  line-height: 64px;
+  height: 64px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  border-bottom: 1px solid #c8c8c8; }
+
+.sigai-brand {
+  font-weight: bold;
+  font-family: "PT Sans", "Fira Sans", sans-serif !important; }
+  .sigai-brand:before {
+    content: "sigai";
+    color: #fefefe; }
+  .sigai-brand:after {
+    content: "@ucf";
+    color: #ffc904; }
+
+.navbar-brand {
+  padding: 16px 32px !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: row; }
+  .navbar-brand span {
+    color: #fefefe;
+    font-size: 17px;
+    line-height: 32px;
+    height: 32px; }
+
+.navbar-brand.group, .navbar-brand.active {
+  background: #39434a; }
+
+.alert.alert-sigai-mission {
+  background: #464d54; }
+
+.group-meet {
+  color: #fefefe; }
+  .group-meet a, .group-meet span {
+    color: #ffc904; }
+
+nav.sigai-navbar {
+  height: 64px;
+  padding: 0;
+  margin: 0;
+  background: #262d33;
+  z-index: 1000000000000; }
+  nav.sigai-navbar div.sigai-nav {
+    padding: 0 16px;
+    background: #262d33; }
+    nav.sigai-navbar div.sigai-nav a.nav-item.nav-link {
+      padding: 16px;
+      font-weight: 500;
+      line-height: 32px;
+      color: #fefefe;
+      text-decoration: none; }
+      nav.sigai-navbar div.sigai-nav a.nav-item.nav-link:hover {
+        cursor: pointer; }
+      nav.sigai-navbar div.sigai-nav a.nav-item.nav-link.active {
+        background: #39434a; }
+  nav.sigai-navbar .navbar-toggler {
+    height: 64px;
+    width: 64px; }
+    nav.sigai-navbar .navbar-toggler svg.fa-bars > path {
+      fill: #fefefe !important; }
+
+.card-sigai-subsite {
+  color: #c8c8c8;
+  background: #343c44; }
+  .card-sigai-subsite .card-header {
+    color: #efefef; }
+
+body.sigai-global-dark .alert-sigai-semester-description {
+  background: #505963;
+  color: #fefefe; }
+body.sigai-global-dark .card-sigai-meeting {
+  background: #3b4650; }
+  body.sigai-global-dark .card-sigai-meeting .sigai-meeting-banner {
+    background: #202020; }
+  body.sigai-global-dark .card-sigai-meeting .card-body .card-title {
+    font-weight: 700;
+    font-size: 17px;
+    color: #ffc904; }
+  body.sigai-global-dark .card-sigai-meeting .card-body p {
+    color: #dcdcdc; }
+
+.btn-yt {
+  color: #fefefe;
+  background: #ff0000; }
+
+.btn-gh {
+  color: #333333;
+  background: #f5f5f5; }
+
+.btn-date {
+  color: #fefefe;
+  background: #ff4f81; }
+
+.btn-sigai-inst {
+  color: #fefefe;
+  background: #788cb6; }
+
+.btn-sigai-unit {
+  color: #fefefe;
+  background: #2754ba; }
+
+body {
+  background-color: #e3eaf1; }
+
+.ansi-black-bg {
+  background-color: #3E424D; }
+.ansi-black-fg {
+  color: #3E424D; }
+.ansi-black-intense-bg {
+  background-color: #282C36; }
+.ansi-black-intense-fg {
+  color: #282C36; }
+.ansi-blue-bg {
+  background-color: #208FFB; }
+.ansi-blue-fg {
+  color: #208FFB; }
+.ansi-blue-intense-bg {
+  background-color: #0065CA; }
+.ansi-blue-intense-fg {
+  color: #0065CA; }
+.ansi-bold {
+  font-weight: bold; }
+.ansi-cyan-bg {
+  background-color: #60C6C8; }
+.ansi-cyan-fg {
+  color: #60C6C8; }
+.ansi-cyan-intense-bg {
+  background-color: #258F8F; }
+.ansi-cyan-intense-fg {
+  color: #258F8F; }
+.ansi-green-bg {
+  background-color: #00A250; }
+.ansi-green-fg {
+  color: #00A250; }
+.ansi-green-intense-bg {
+  background-color: #007427; }
+.ansi-green-intense-fg {
+  color: #007427; }
+.ansi-magenta-bg {
+  background-color: #D160C4; }
+.ansi-magenta-fg {
+  color: #D160C4; }
+.ansi-magenta-intense-bg {
+  background-color: #A03196; }
+.ansi-magenta-intense-fg {
+  color: #A03196; }
+.ansi-red-bg {
+  background-color: #E75C58; }
+.ansi-red-fg {
+  color: #E75C58; }
+.ansi-red-intense-bg {
+  background-color: #B22B31; }
+.ansi-red-intense-fg {
+  color: #B22B31; }
+.ansi-white-bg {
+  background-color: #C5C1B4; }
+.ansi-white-fg {
+  color: #C5C1B4; }
+.ansi-white-intense-bg {
+  background-color: #A1A6B2; }
+.ansi-white-intense-fg {
+  color: #A1A6B2; }
+.ansi-yellow-bg {
+  background-color: #DDB62B; }
+.ansi-yellow-fg {
+  color: #DDB62B; }
+.ansi-yellow-intense-bg {
+  background-color: #B27D12; }
+.ansi-yellow-intense-fg {
+  color: #B27D12; }
+.ansibold {
+  font-weight: bold; }
+.ansiblack {
+  color: black; }
+.ansired {
+  color: darkred; }
+.ansigreen {
+  color: darkgreen; }
+.ansiyellow {
+  color: #c4a000; }
+.ansiblue {
+  color: darkblue; }
+.ansipurple {
+  color: darkviolet; }
+.ansicyan {
+  color: steelblue; }
+.ansigray {
+  color: gray; }
+.ansibgblack {
+  background-color: black; }
+.ansibgred {
+  background-color: red; }
+.ansibggreen {
+  background-color: green; }
+.ansibgyellow {
+  background-color: yellow; }
+.ansibgblue {
+  background-color: blue; }
+.ansibgpurple {
+  background-color: magenta; }
+.ansibgcyan {
+  background-color: cyan; }
+.ansibggray {
+  background-color: gray; }
+
+.highlight {
+  /* Name.Builtin.Pseudo */
+  /* Name.Builtin.Pseudo */
+  /* Comment */
+  /* Comment */
+  /* Comment.Single */
+  /* Comment.Single */
+  /* Comment.Hashbang */
+  /* Comment.Multiline */
+  /* Comment.Multiline */
+  /* Comment.Preproc */
+  /* Comment.Preproc */
+  /* Comment.PreprocFile */
+  /* Comment.Special */
+  /* Comment.Special */
+  /* Literal.String.Delimiter */
+  /* Error */
+  /* Error */
+  /* Name.Function.Magic */
+  /* Generic.Deleted */
+  /* Generic.Deleted */
+  /* Generic.Emph */
+  /* Generic.Emph */
+  /* Generic.Heading */
+  /* Generic.Heading */
+  /* Generic.Inserted */
+  /* Generic.Inserted */
+  /* Generic.Output */
+  /* Generic.Output */
+  /* Generic.Prompt */
+  /* Generic.Prompt */
+  /* Generic.Error */
+  /* Generic.Error */
+  /* Generic.Strong */
+  /* Generic.Strong */
+  /* Generic.Traceback */
+  /* Generic.Traceback */
+  /* Generic.Subheading */
+  /* Generic.Subheading */
+  /* Literal.Number.Integer.Long */
+  /* Literal.Number.Integer.Long */
+  /* Keyword */
+  /* Keyword */
+  /* Keyword.Constant */
+  /* Keyword.Constant */
+  /* Keyword.Declaration */
+  /* Keyword.Declaration */
+  /* Keyword.Namespace */
+  /* Keyword.Namespace */
+  /* Keyword.Pseudo */
+  /* Keyword.Pseudo */
+  /* Keyword.Reserved */
+  /* Keyword.Reserved */
+  /* Keyword.Type */
+  /* Keyword.Type */
+  /* Literal.Number */
+  /* Literal.Number */
+  /* Literal.Number.Bin */
+  /* Literal.Number.Float */
+  /* Literal.Number.Float */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Oct */
+  /* Literal.Number.Oct */
+  /* Name.Attribute */
+  /* Name.Attribute */
+  /* Name.Builtin */
+  /* Name.Builtin */
+  /* Name.Class */
+  /* Name.Class */
+  /* Name.Decorator */
+  /* Name.Decorator */
+  /* Name.Exception */
+  /* Name.Exception */
+  /* Name.Function */
+  /* Name.Function */
+  /* Name.Entity */
+  /* Name.Entity */
+  /* Name.Label */
+  /* Name.Label */
+  /* Name.Namespace */
+  /* Name.Namespace */
+  /* Name.Constant */
+  /* Name.Constant */
+  /* Name.Tag */
+  /* Name.Tag */
+  /* Name.Variable */
+  /* Name.Variable */
+  /* Operator */
+  /* Operator */
+  /* Operator.Word */
+  /* Operator.Word */
+  /* Literal.String */
+  /* Literal.String */
+  /* Literal.String.Single */
+  /* Literal.String.Single */
+  /* Literal.String.Double */
+  /* Literal.String.Double */
+  /* Literal.String.Affix */
+  /* Literal.String.Backtick */
+  /* Literal.String.Backtick */
+  /* Literal.String.Char */
+  /* Literal.String.Char */
+  /* Literal.String.Doc */
+  /* Literal.String.Doc */
+  /* Literal.String.Escape */
+  /* Literal.String.Escape */
+  /* Literal.String.Heredoc */
+  /* Literal.String.Heredoc */
+  /* Literal.String.Interpol */
+  /* Literal.String.Interpol */
+  /* Literal.String.Regex */
+  /* Literal.String.Regex */
+  /* Literal.String.Symbol */
+  /* Literal.String.Symbol */
+  /* Literal.String.Other */
+  /* Literal.String.Other */
+  /* Name.Variable.Class */
+  /* Name.Variable.Class */
+  /* Name.Variable.Global */
+  /* Name.Variable.Global */
+  /* Name.Variable.Instance */
+  /* Name.Variable.Instance */
+  /* Name.Variable.Magic */
+  /* Text.Whitespace */ }
+  .highlight .bp {
+    color: #007020; }
+  .highlight .bp {
+    color: #008000; }
+  .highlight .c {
+    color: #408080;
+    font-style: italic; }
+  .highlight .c {
+    color: #60a0b0;
+    font-style: italic; }
+  .highlight .c1 {
+    color: #408080;
+    font-style: italic; }
+  .highlight .c1 {
+    color: #60a0b0;
+    font-style: italic; }
+  .highlight .ch {
+    color: #408080;
+    font-style: italic; }
+  .highlight .cm {
+    color: #408080;
+    font-style: italic; }
+  .highlight .cm {
+    color: #60a0b0;
+    font-style: italic; }
+  .highlight .cp {
+    color: #007020; }
+  .highlight .cp {
+    color: #BC7A00; }
+  .highlight .cpf {
+    color: #408080;
+    font-style: italic; }
+  .highlight .cs {
+    color: #408080;
+    font-style: italic; }
+  .highlight .cs {
+    color: #60a0b0;
+    background-color: #fff0f0; }
+  .highlight .dl {
+    color: #BA2121; }
+  .highlight .err {
+    border: 1px solid #FF0000; }
+  .highlight .err {
+    border: 1px solid #FF0000; }
+  .highlight .fm {
+    color: #0000FF; }
+  .highlight .gd {
+    color: #A00000; }
+  .highlight .gd {
+    color: #A00000; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gh {
+    color: #000080;
+    font-weight: bold; }
+  .highlight .gh {
+    color: #000080;
+    font-weight: bold; }
+  .highlight .gi {
+    color: #00A000; }
+  .highlight .gi {
+    color: #00A000; }
+  .highlight .go {
+    color: #808080; }
+  .highlight .go {
+    color: #888888; }
+  .highlight .gp {
+    color: #000080;
+    font-weight: bold; }
+  .highlight .gp {
+    color: #c65d09;
+    font-weight: bold; }
+  .highlight .gr {
+    color: #FF0000; }
+  .highlight .gr {
+    color: #FF0000; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gt {
+    color: #0040D0; }
+  .highlight .gt {
+    color: #0044DD; }
+  .highlight .gu {
+    color: #800080;
+    font-weight: bold; }
+  .highlight .gu {
+    color: #800080;
+    font-weight: bold; }
+  .highlight .hll {
+    background-color: #ffffcc; }
+  .highlight .hll {
+    background-color: #ffffcc; }
+  .highlight .il {
+    color: #40a070; }
+  .highlight .il {
+    color: #666666; }
+  .highlight .k {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .k {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .kc {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .kc {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .kd {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .kd {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .kn {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .kn {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .kp {
+    color: #007020; }
+  .highlight .kp {
+    color: #008000; }
+  .highlight .kr {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .kr {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .kt {
+    color: #902000; }
+  .highlight .kt {
+    color: #B00040; }
+  .highlight .m {
+    color: #40a070; }
+  .highlight .m {
+    color: #666666; }
+  .highlight .mb {
+    color: #666666; }
+  .highlight .mf {
+    color: #40a070; }
+  .highlight .mf {
+    color: #666666; }
+  .highlight .mh {
+    color: #40a070; }
+  .highlight .mh {
+    color: #666666; }
+  .highlight .mi {
+    color: #40a070; }
+  .highlight .mi {
+    color: #666666; }
+  .highlight .mo {
+    color: #40a070; }
+  .highlight .mo {
+    color: #666666; }
+  .highlight .na {
+    color: #4070a0; }
+  .highlight .na {
+    color: #7D9029; }
+  .highlight .nb {
+    color: #007020; }
+  .highlight .nb {
+    color: #008000; }
+  .highlight .nc {
+    color: #0000FF;
+    font-weight: bold; }
+  .highlight .nc {
+    color: #0e84b5;
+    font-weight: bold; }
+  .highlight .nd {
+    color: #555555;
+    font-weight: bold; }
+  .highlight .nd {
+    color: #AA22FF; }
+  .highlight .ne {
+    color: #007020; }
+  .highlight .ne {
+    color: #D2413A;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #0000FF; }
+  .highlight .nf {
+    color: #06287e; }
+  .highlight .ni {
+    color: #999999;
+    font-weight: bold; }
+  .highlight .ni {
+    color: #d55537;
+    font-weight: bold; }
+  .highlight .nl {
+    color: #002070;
+    font-weight: bold; }
+  .highlight .nl {
+    color: #A0A000; }
+  .highlight .nn {
+    color: #0000FF;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #0e84b5;
+    font-weight: bold; }
+  .highlight .no {
+    color: #60add5; }
+  .highlight .no {
+    color: #880000; }
+  .highlight .nt {
+    color: #008000;
+    font-weight: bold; }
+  .highlight .nt {
+    color: #062873;
+    font-weight: bold; }
+  .highlight .nv {
+    color: #19177C; }
+  .highlight .nv {
+    color: #bb60d5; }
+  .highlight .o {
+    color: #666666; }
+  .highlight .o {
+    color: #666666; }
+  .highlight .ow {
+    color: #007020;
+    font-weight: bold; }
+  .highlight .ow {
+    color: #AA22FF;
+    font-weight: bold; }
+  .highlight .s {
+    color: #4070a0; }
+  .highlight .s {
+    color: #BA2121; }
+  .highlight .s1 {
+    color: #4070a0; }
+  .highlight .s1 {
+    color: #BA2121; }
+  .highlight .s2 {
+    color: #4070a0; }
+  .highlight .s2 {
+    color: #BA2121; }
+  .highlight .sa {
+    color: #BA2121; }
+  .highlight .sb {
+    color: #4070a0; }
+  .highlight .sb {
+    color: #BA2121; }
+  .highlight .sc {
+    color: #4070a0; }
+  .highlight .sc {
+    color: #BA2121; }
+  .highlight .sd {
+    color: #4070a0;
+    font-style: italic; }
+  .highlight .sd {
+    color: #BA2121;
+    font-style: italic; }
+  .highlight .se {
+    color: #4070a0;
+    font-weight: bold; }
+  .highlight .se {
+    color: #BB6622;
+    font-weight: bold; }
+  .highlight .sh {
+    color: #4070a0; }
+  .highlight .sh {
+    color: #BA2121; }
+  .highlight .si {
+    color: #70a0d0;
+    font-style: italic; }
+  .highlight .si {
+    color: #BB6688;
+    font-weight: bold; }
+  .highlight .sr {
+    color: #235388; }
+  .highlight .sr {
+    color: #BB6688; }
+  .highlight .ss {
+    color: #19177C; }
+  .highlight .ss {
+    color: #517918; }
+  .highlight .sx {
+    color: #008000; }
+  .highlight .sx {
+    color: #c65d09; }
+  .highlight .vc {
+    color: #19177C; }
+  .highlight .vc {
+    color: #bb60d5; }
+  .highlight .vg {
+    color: #19177C; }
+  .highlight .vg {
+    color: #bb60d5; }
+  .highlight .vi {
+    color: #19177C; }
+  .highlight .vi {
+    color: #bb60d5; }
+  .highlight .vm {
+    color: #19177C; }
+  .highlight .w {
+    color: #bbbbbb; }
+
+@media print {
+  div.cell {
+    page-break-inside: avoid; } }
+div.cell h2 {
+  border-bottom: 1px solid rgba(80, 80, 80, 0.2);
+  padding: .5rem 0; }
+div.cell h1, div.cell h2, div.cell h3, div.cell h4, div.cell h5, div.cell h6 {
+  font-family: "Fire Sans", sans-serif; }
+  div.cell h1:before, div.cell h2:before, div.cell h3:before, div.cell h4:before, div.cell h5:before, div.cell h6:before {
+    color: #fefefe;
+    padding: 0 1rem 0 0; }
+  div.cell h1 a.anchor-link, div.cell h2 a.anchor-link, div.cell h3 a.anchor-link, div.cell h4 a.anchor-link, div.cell h5 a.anchor-link, div.cell h6 a.anchor-link {
+    display: none; }
+div.cell h1::before {
+  content: "#"; }
+div.cell h2::before {
+  content: "##"; }
+div.cell h3::before {
+  content: "###"; }
+div.cell h4::before {
+  content: "####"; }
+div.cell h5::before {
+  content: "#####"; }
+div.cell h6::before {
+  content: "######"; }
+div.cell div.input, div.cell div.output_area {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; }
+div.cell div.prompt {
+  min-width: 14ex;
+  padding: 0.4em;
+  margin: 0;
+  text-align: right;
+  line-height: 1.21419em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  /* This is needed so that empty prompt areas can collapse to zero height when there
+      is no content in the output_subarea and the prompt. The main purpose of this is
+      to make sure that empty JavaScript output_subareas have no height. */ }
+  @media print {
+    div.cell div.prompt {
+      text-align: left; } }
+  div.cell div.prompt:empty {
+    padding: 0;
+    display: none; }
+div.cell div.inner_cell {
+  min-width: 0;
+  /* Modern browsers */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* Old browsers */
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  /* Modern browsers */
+  flex: 1; }
+div.cell div.output div.output_area:not(:first-child) {
+  display: none; }
+div.cell div.output div.output_area {
+  width: 100%; }
+  div.cell div.output div.output_area img {
+    width: 100%;
+    border-radius: 0.25rem;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
+
+div.cell.text_cell {
+  font-family: "Fira Sans", sans-serif; }
+div.cell.code_cell {
+  padding: 0.5rem 0; }
+  div.cell.code_cell div.input, div.cell.code_cell div.output_area {
+    background: #fefefe;
+    border-radius: .25rem;
+    margin: 0.5rem 0;
+    box-shadow: 0px 1px 3px 0px rgba(39, 39, 39, 0.5); }
+    div.cell.code_cell div.input div.prompt, div.cell.code_cell div.output_area div.prompt {
+      left: -14ex;
+      text-align: right;
+      position: absolute;
+      padding: 0.5rem;
+      font-family: monospace !important; }
+    @media (max-width: 992px) {
+      div.cell.code_cell div.input div.prompt, div.cell.code_cell div.output_area div.prompt {
+        display: none; } }
+    div.cell.code_cell div.input div.inner_cell > div.input_area, div.cell.code_cell div.input code, div.cell.code_cell div.input div.output_html, div.cell.code_cell div.output_area div.inner_cell > div.input_area, div.cell.code_cell div.output_area code, div.cell.code_cell div.output_area div.output_html {
+      margin: 0.5rem 1rem;
+      max-width: 100%;
+      overflow-x: scroll; }
+      div.cell.code_cell div.input div.inner_cell > div.input_area pre, div.cell.code_cell div.input code pre, div.cell.code_cell div.input div.output_html pre, div.cell.code_cell div.output_area div.inner_cell > div.input_area pre, div.cell.code_cell div.output_area code pre, div.cell.code_cell div.output_area div.output_html pre {
+        margin: 0;
+        padding-bottom: 1rem !important; }
+    div.cell.code_cell div.input div.output_png, div.cell.code_cell div.output_area div.output_png {
+      display: flex;
+      width: 100%;
+      flex-direction: column; }
+      div.cell.code_cell div.input div.output_png img, div.cell.code_cell div.output_area div.output_png img {
+        align-self: flex-end; }
+div.cell div table.dataframe {
+  border: 0;
+  margin: 0; }
+  div.cell div table.dataframe td {
+    white-space: nowrap; }
+
+body {
+  text-rendering: optimizeLegibility; }
+
+span {
+  font-family: inherit !important; }
